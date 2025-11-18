@@ -103,8 +103,7 @@
         pointer-events: auto;
       }
     </style>
-  <link rel="stylesheet" href="/index.css">
-</head>
+  </head>
   <body>
     <div id="menu-overlay" class="md:hidden fixed inset-0 z-[99]"></div>
     <div id="mobile-menu" class="md:hidden bg-white dark:bg-slate-800 h-full w-[280px] fixed top-0 right-0 z-[100] shadow-lg p-8">
@@ -162,7 +161,7 @@
             Opilor MVP is in exclusive private beta, recruiting early users for a limited time.
           </p>
           <a href="./assets/Post.png" target="_blank" rel="noopener noreferrer" class="bg-opilor-green text-white font-bold py-4 px-10 rounded-lg text-lg hover:opacity-90 transition-smooth shadow-md">
-            Join the Beta
+            How to start
           </a>
           <div class="mt-12 md:mt-16 w-full">
             <!-- Swiper Carousel -->
@@ -212,7 +211,106 @@
         </div>
       </section>
 
-      <section id="flow" class="py-20 md:py-28 bg-[#f4f4f4] dark:bg-slate-900">
+      <section id="join" class="py-20 md:py-28 bg-[#f4f4f4] dark:bg-slate-900">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white mb-6">
+            🎉 -2 Weeks Pilot- – Earn Rewards! 🎉
+          </h2>
+          <div class="max-w-3xl mx-auto text-left text-gray-700 dark:text-gray-300 space-y-6">
+            <p class="text-lg text-center">
+              Need a small favor? Want to help someone nearby? Now you can earn rewards for posting or completing tasks!
+            </p>
+            <p class="font-semibold text-lg text-center">
+              <i class="fas fa-calendar-alt mr-2 text-opilor-green"></i>Duration: 2 weeks only – limited spots available!
+            </p>
+            <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
+              <h3 class="text-xl font-bold mb-3 text-[#333333] dark:text-white">How it works:</h3>
+              <ol class="list-decimal list-inside space-y-2">
+                <li><strong class="font-semibold">Requesters:</strong> Post tasks (errands, small favors, pick-ups…)</li>
+                <li><strong class="font-semibold">Helpers:</strong> Complete tasks nearby</li>
+                <li>High-quality tasks earn extra rewards, and completing more tasks gives bigger bonuses</li>
+              </ol>
+            </div>
+            <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
+              <h3 class="text-xl font-bold mb-3 text-[#333333] dark:text-white"><i class="fas fa-exclamation-circle mr-2 text-yellow-500"></i>Important:</h3>
+              <ul class="list-disc list-inside space-y-2">
+                  <li>Bonuses will be calculated and distributed after the 2-week pilot.</li>
+                  <li>Make sure to use the same phone number when posting or completing tasks – this is the only way we can track your tasks and deliver your rewards.</li>
+              </ul>
+            </div>
+            <div class="pt-4">
+              <h3 class="text-xl md:text-2xl font-bold text-center text-[#333333] dark:text-white mb-6">🏆 Reward Tiers 🏆</h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Requester Rewards Card -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
+                  <h4 class="text-xl font-bold mb-4 text-center text-[#333333] dark:text-white">
+                    <i class="fas fa-user-tag mr-2 text-opilor-green"></i> Requester Rewards
+                  </h4>
+                  <div class="space-y-3">
+                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
+                      <p class="font-semibold text-md text-[#333333] dark:text-white">1st Task</p>
+                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 2.5€ + Rating Bonus 0.5€</p>
+                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 3€</p>
+                    </div>
+                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
+                      <p class="font-semibold text-md text-[#333333] dark:text-white">3rd Task</p>
+                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 6€ + Rating Bonus 1€</p>
+                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 7€</p>
+                    </div>
+                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
+                      <p class="font-semibold text-md text-[#333333] dark:text-white">5th Task</p>
+                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 12€ + Rating Bonus 1€</p>
+                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 13€</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Helper Rewards Card -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
+                  <h4 class="text-xl font-bold mb-4 text-center text-[#333333] dark:text-white">
+                    <i class="fas fa-hands-helping mr-2 text-opilor-green"></i> Helper Rewards
+                  </h4>
+                  <div class="space-y-3">
+                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
+                      <p class="font-semibold text-md text-[#333333] dark:text-white">1st Task</p>
+                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 1.5€ + Rating Bonus 0.5€</p>
+                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 2€</p>
+                    </div>
+                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
+                      <p class="font-semibold text-md text-[#333333] dark:text-white">3rd Task</p>
+                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 3€ + Rating Bonus 0.5€</p>
+                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 4€</p>
+                    </div>
+                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
+                      <p class="font-semibold text-md text-[#333333] dark:text-white">5th Task</p>
+                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 5€ + Rating Bonus 1€</p>
+                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 6€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-8 bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700 text-left">
+                  <h4 class="text-lg font-bold text-[#333333] dark:text-white mb-3">*Note:</h4>
+                  <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                      <li><strong>Rating Bonus:</strong> You receive this bonus when your helper/requester gives you a rating of at least 4 stars.</li>
+                      <li><strong>Reward Milestones:</strong> Rewards are earned after completing your 1st, 3rd, and 5th tasks. We will notify you each time you reach a milestone.</li>
+                      <li><strong>Record Keeping:</strong> Please keep all relevant records for completed tasks, including the Task ID, Task Number, and key chat history with your requester/helper.</li>
+                      <li><strong>Reward Distribution:</strong> After the two-week pilot period, we will proactively contact those who have earned rewards to verify this information and distribute the payments to the IBAN you provide.</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mt-10">
+            <a href="https://t.me/+DjWPEqlOAzxmM2Vk" target="_blank" rel="noopener noreferrer" class="bg-opilor-green text-white font-bold py-4 px-10 rounded-lg text-lg hover:opacity-90 transition-smooth shadow-md inline-block">
+              <i class="fab fa-telegram-plane mr-2"></i> Sign Up via Telegram
+            </a>
+          </div>
+          <div class="mt-8 text-gray-500 dark:text-gray-400">
+            <p>#Opilor #CommunityTasks #EarnRewards #TwoWeekPilot #MicroTasks</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="flow" class="py-20 md:py-28 bg-white dark:bg-slate-900">
         <div class="container mx-auto px-6">
           <div class="text-center mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white">
@@ -222,34 +320,26 @@
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-8 pt-8">
             <div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700 text-center flex flex-col items-center transition-transform transform hover:-translate-y-2">
-              <div class="relative mb-4">
-                <div class="absolute -top-10 -left-10 text-opilor-green text-5xl font-bold w-20 h-20 flex items-center justify-center">1</div>
-                <i class="fas fa-hand-pointer text-4xl text-opilor-green"></i>
-              </div>
+              <div class="w-16 h-16 bg-opilor-green text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6">1</div>
+              <i class="fas fa-hand-pointer text-4xl text-opilor-green"></i>
               <h3 class="text-xl font-bold mt-4 mb-2 dark:text-white">Choose Type</h3>
               <p class="text-gray-600 dark:text-gray-400">Choose the type of help you need</p>
             </div>
             <div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700 text-center flex flex-col items-center transition-transform transform hover:-translate-y-2">
-              <div class="relative mb-4">
-                <div class="absolute -top-10 -left-10 text-opilor-green text-5xl font-bold w-20 h-20 flex items-center justify-center">2</div>
-                <i class="fas fa-list-check text-4xl text-opilor-green"></i>
-              </div>
+              <div class="w-16 h-16 bg-opilor-green text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6">2</div>
+              <i class="fas fa-list-check text-4xl text-opilor-green"></i>
               <h3 class="text-xl font-bold mt-4 mb-2 dark:text-white">Set Details</h3>
               <p class="text-gray-600 dark:text-gray-400">Set the task details</p>
             </div>
             <div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700 text-center flex flex-col items-center transition-transform transform hover:-translate-y-2">
-              <div class="relative mb-4">
-                <div class="absolute -top-10 -left-10 text-opilor-green text-5xl font-bold w-20 h-20 flex items-center justify-center">3</div>
-                <i class="fas fa-dollar-sign text-4xl text-opilor-green"></i>
-              </div>
+              <div class="w-16 h-16 bg-opilor-green text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6">3</div>
+              <i class="fas fa-dollar-sign text-4xl text-opilor-green"></i>
               <h3 class="text-xl font-bold mt-4 mb-2 dark:text-white">Decide Fee</h3>
               <p class="text-gray-600 dark:text-gray-400">Decide your task fee</p>
             </div>
             <div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700 text-center flex flex-col items-center transition-transform transform hover:-translate-y-2">
-              <div class="relative mb-4">
-                <div class="absolute -top-10 -left-10 text-opilor-green text-5xl font-bold w-20 h-20 flex items-center justify-center">4</div>
-                <i class="fas fa-paper-plane text-4xl text-opilor-green"></i>
-              </div>
+              <div class="w-16 h-16 bg-opilor-green text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6">4</div>
+              <i class="fas fa-paper-plane text-4xl text-opilor-green"></i>
               <h3 class="text-xl font-bold mt-4 mb-2 dark:text-white">Publish & Connect</h3>
               <p class="text-gray-600 dark:text-gray-400">Publish and wait for someone to accept</p>
             </div>
@@ -257,7 +347,7 @@
         </div>
       </section>
 
-      <section id="helper" class="bg-white dark:bg-slate-900 py-20 md:py-28">
+      <section id="helper" class="bg-[#f4f4f4] dark:bg-slate-900 py-20 md:py-28">
         <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-12">
           <div class="lg:w-1/2 text-center lg:text-left">
             <h2 class="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white mb-4">
@@ -300,7 +390,7 @@
         </div>
       </section>
 
-      <section id="trust" class="py-20 md:py-28 bg-[#f4f4f4] dark:bg-slate-900">
+      <section id="trust" class="py-20 md:py-28 bg-white dark:bg-slate-900">
         <div class="container mx-auto px-6">
           <div class="text-center mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white">
@@ -334,7 +424,7 @@
         </div>
       </section>
 
-      <section id="services" class="bg-white dark:bg-slate-900 py-20 md:py-28">
+      <section id="services" class="bg-[#f4f4f4] dark:bg-slate-900 py-20 md:py-28">
         <div class="container mx-auto px-6">
           <div class="text-center mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white">
@@ -379,95 +469,6 @@
         </div>
       </section>
 
-      <section id="join" class="py-20 md:py-28 bg-[#f4f4f4] dark:bg-slate-900">
-        <div class="container mx-auto px-6 text-center">
-          <h2 class="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white mb-6">
-            🎉 Opilor 2-Week Pilot – Earn Rewards! 🎉
-          </h2>
-          <div class="max-w-3xl mx-auto text-left text-gray-700 dark:text-gray-300 space-y-6">
-            <p class="text-lg text-center">
-              Need a small favor? Want to help someone nearby? Now you can earn rewards for posting or completing tasks!
-            </p>
-            <p class="font-semibold text-lg text-center">
-              <i class="fas fa-calendar-alt mr-2 text-opilor-green"></i>Duration: 2 weeks only – limited spots available!
-            </p>
-            <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
-              <h3 class="text-xl font-bold mb-3 text-[#333333] dark:text-white">How it works:</h3>
-              <ol class="list-decimal list-inside space-y-2">
-                <li><strong class="font-semibold">Requesters:</strong> Post tasks (errands, small favors, pick-ups…)</li>
-                <li><strong class="font-semibold">Helpers:</strong> Complete tasks nearby</li>
-                <li>High-quality tasks earn extra rewards, and completing more tasks gives bigger bonuses</li>
-              </ol>
-            </div>
-            <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
-              <h3 class="text-xl font-bold mb-3 text-[#333333] dark:text-white"><i class="fas fa-exclamation-circle mr-2 text-yellow-500"></i>Important:</h3>
-              <ul class="list-disc list-inside space-y-2">
-                  <li>Bonuses will be calculated and distributed after the 2-week pilot.</li>
-                  <li>Make sure to use the same phone number when posting or completing tasks – this is the only way we can track your tasks and deliver your rewards.</li>
-              </ul>
-            </div>
-            <div class="pt-4">
-              <h3 class="text-xl md:text-2xl font-bold text-center text-[#333333] dark:text-white mb-6">🏆 Reward Tiers 🏆</h3>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- Requester Rewards Card -->
-                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
-                  <h4 class="text-xl font-bold mb-4 text-center text-[#333333] dark:text-white">
-                    <i class="fas fa-user-tag mr-2 text-opilor-green"></i> Requester Rewards
-                  </h4>
-                  <div class="space-y-3">
-                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
-                      <p class="font-semibold text-md text-[#333333] dark:text-white">1st Task</p>
-                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 2.5€ + Rating 0.5€</p>
-                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 3€</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
-                      <p class="font-semibold text-md text-[#333333] dark:text-white">3rd Task</p>
-                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 6€ + Rating 1€</p>
-                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 7€</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
-                      <p class="font-semibold text-md text-[#333333] dark:text-white">5th Task</p>
-                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 12€ + Rating 1€</p>
-                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 13€</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Helper Rewards Card -->
-                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-light dark:shadow-none dark:border dark:border-slate-700">
-                  <h4 class="text-xl font-bold mb-4 text-center text-[#333333] dark:text-white">
-                    <i class="fas fa-hands-helping mr-2 text-opilor-green"></i> Helper Rewards
-                  </h4>
-                  <div class="space-y-3">
-                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
-                      <p class="font-semibold text-md text-[#333333] dark:text-white">1st Task</p>
-                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 1.5€ + Rating 0.5€</p>
-                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 2€</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
-                      <p class="font-semibold text-md text-[#333333] dark:text-white">3rd Task</p>
-                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 3€ + Rating 0.5€</p>
-                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 4€</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 dark:bg-slate-700/50 rounded-lg">
-                      <p class="font-semibold text-md text-[#333333] dark:text-white">5th Task</p>
-                      <p class="text-sm text-gray-500 dark:text-gray-400">Base Reward 5€ + Rating 1€</p>
-                      <p class="text-xl font-bold text-opilor-green mt-1">Total: 6€</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mt-10">
-            <a href="https://t.me/+DjWPEqlOAzxmM2Vk" target="_blank" rel="noopener noreferrer" class="bg-opilor-green text-white font-bold py-4 px-10 rounded-lg text-lg hover:opacity-90 transition-smooth shadow-md inline-block">
-              <i class="fab fa-telegram-plane mr-2"></i> Sign Up via Telegram
-            </a>
-          </div>
-          <div class="mt-8 text-gray-500 dark:text-gray-400">
-            <p>#Opilor #CommunityTasks #EarnRewards #TwoWeekPilot #MicroTasks</p>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer id="footer" class="bg-[#333333] dark:bg-slate-800 text-white pt-20 pb-10">
@@ -621,6 +622,5 @@
         });
       });
     </script>
-  <script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
